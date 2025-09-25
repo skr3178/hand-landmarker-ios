@@ -1,3 +1,28 @@
+
+Idea for better training. 
+![alt text](Gemini_Generated_Image_x87a7wx87a7wx87a.png)
+
+![alt text](ezgif.com-video-to-gif-converter.gif)
+
+## Create a hand playing the guitar on isaac-sim
+![alt text](Gemini_Generated_Image_7co4ob7co4ob7co4.png)
+## Research Proposal: Dexterity-Based Hand Motion Model
+
+### Concept
+Similar to human motion diffusion models, can there be a dexterity-based hand model?
+The dexterity of the human hand is high and creating reward functions is cumbersome, requiring sparse rewards.
+
+### Data Collection Strategy
+Use motion capture datasets from motion detection gloves such as 'MANUS' to create a massive glove/hand dataset. 
+Examples for the motion capture dataset could include applications such as cooking, playing piano, guitar, etc.
+
+Fine-tune the model on YouTube videos that show first-person hand movements → 
+extract the motion data from them → refine it in Blender → retarget it for specific hand URDF models.
+
+### Expected Outcome
+This way one can have an open foundation model for dexterity-based hand motion only. 
+
+
 # MediaPipe iOS Samples
 
 This repository contains iOS sample applications demonstrating MediaPipe capabilities for hand and pose landmark detection.
@@ -93,3 +118,6 @@ Here, they use additional information, to better estimate the hand tracking from
 
 
 <video controls src="ssvid.net--Midnight-Pasta-After-Work-147-AM_360p-ezgif.com-video-cutter.mp4" title="Title"></video>
+
+## Open source dataset: 
+HAnd Gesture Recognition Image Dataset
